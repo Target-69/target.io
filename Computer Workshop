@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering Workshop - My Information and Inspiration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light blue background color */
+        }
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .section {
+            width: 45%;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #007bff; /* Blue border color */
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Computer Engineering Workshop</h1>
+    <div id="container">
+        <div class="section" id="information">
+            <h2>My Information</h2>
+            <img src="file:///C:/Users/akhil/Downloads/WhatsApp%20Image%202023-08-12%20at%2011.22.19.jpg" alt="AKHILDEV REDDY" width="150" height="200" style="border-radius: 15px;">
+            <p>
+                <strong>NAME:</strong> R. AKHILDEV REDDY<br>
+                <strong>UNIVERSITY:</strong> GITAM<br>
+                <strong>EMAIL:</strong> areddem@gitam.in<br>
+                <strong>YEAR:</strong> Second Year<br>
+                <strong>DEGREE:</strong> B.Tech in Computer Science and Engineering<br>
+                <strong>INTERESTS:</strong> Artificial Intelligence, Web Development, Data Science<br>
+                I am passionate about exploring the latest technologies and building innovative solutions that can make a positive impact on society.
+                <br>
+                <a href="https://www.linkedin.com/in/akhildevreddy/" target="_blank">Click here to know more about me.</a>
+            </p>
+        </div>
+        <div class="section" id="inspiration">
+            <h2>My Inspiration</h2>
+            &emsp;&emsp;<img src="file:///C:/Users/akhil/Downloads/headshot-fink-larry-400x400.webp" alt="LARRY FINK" width="200" height="200">
+            <p>
+                <strong>NAME:</strong> LARRY FINK<br>
+                <strong>CEO of BlackRock</strong><br>
+                Larry is a well-known investor in the financial services industry.<br>
+                He is a computer scientist and entrepreneur who has been involved in the development of many successful companies including Apple, Microsoft, Google, Amazon, IBM, Intel, Facebook, Twitter, eBay, PayPal, Nintendo, etc.<br>
+                Larry's visionary approach to business and his ability to foresee technology trends have been a great source of inspiration for me in my journey as a computer engineering student.<br>
+                <a href="https://www.blackrock.com/corporate/about-us/leadership/larry-fink#:~:text=Laurence%20D.%20Fink%20is%20Chairman,in%20investment%20and%20technology%20solutions." target="_blank">Click here to know more about LARRY FANK</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
